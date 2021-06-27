@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#calculator{
+  background: rgb(31, 31, 31);
+  width: 550px;
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 20px 20px 50px 50px;
+  padding: 30px 10px 30px 10px;
+}
+
+#logo > img{
+  max-width: 20%;
+}
+
+#screen{
+  width: 400px;
+  margin: auto;
+  background: rgb(226, 255, 196);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 50px;
+  text-align: right;
+  font-size: 40px;
+  font-family: 'Orbitron', sans-serif;
+  padding-right: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+  border: 0;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+
+.green-btn {
+  background-image: -webkit-linear-gradient(45deg, #003333 50%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #003333 50%, #fff 100%);
+}
+
+.green-btn:active{
+  background-image: -webkit-linear-gradient(45deg, #003333 70%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #003333 70%, #fff 100%);
+}
+
+.brown-btn {
+  background-image: -webkit-linear-gradient(45deg, #572601 50%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #572601 50%, #fff 100%);
+}
+
+.brown-btn:active{
+  background-image: -webkit-linear-gradient(45deg, #572601 70%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #572601 70%, #fff 100%);
+}
+
+.black-btn {
+  background-image: -webkit-linear-gradient(45deg, #000 50%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #000 50%, #fff 100%);
+}
+
+.black-btn:active{
+  background-image: -webkit-linear-gradient(45deg, #000 70%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #000 70%, #fff 100%);
+}
+
+.gold-btn {
+  background-image: -webkit-linear-gradient(45deg, #b8860b
+ 50%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #b8860b
+ 50%, #fff 100%);
+}
+
+.gold-btn:active{
+  background-image: -webkit-linear-gradient(45deg, #b8860b 70%, #fff 100%);
+  background-image: -webkit-linear-gradient(135deg, #b8860b 70%, #fff 100%);
+}
